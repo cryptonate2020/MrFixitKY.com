@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrated portrait badge of a crew member in a work cap">
+  <!-- palette: ink #15110d, paper #f4efe6, brick #a72a1d, brass #b8923f, steel-light #d9d2c2 -->
+
+  <!-- medallion ring -->
+  <circle cx="200" cy="140" r="108" fill="#d9d2c2"/>
+  <circle cx="200" cy="140" r="108" fill="none" stroke="#a72a1d" stroke-width="4"/>
+  <circle cx="200" cy="140" r="96" fill="none" stroke="#15110d" stroke-width="1.5" stroke-dasharray="1 7" opacity="0.5"/>
+
+  <!-- shoulders / collar -->
+  <path d="M108 232 q92-34 184 0 v40 h-184Z" fill="#15110d"/>
+  <path d="M178 190 l22 26 22-26 v14 l-22 20-22-20Z" fill="#f4efe6"/>
+
+  <!-- neck -->
+  <rect x="186" y="150" width="28" height="34" fill="#15110d"/>
+
+  <!-- head -->
+  <circle cx="200" cy="120" r="46" fill="#15110d"/>
+
+  <!-- ear -->
+  <circle cx="246" cy="124" r="7" fill="#15110d"/>
+
+  <!-- cap -->
+  <path d="M154 108 a46 46 0 0 1 92 0 q4 0 4 10 h-100 q0-10 4-10Z" fill="#a72a1d"/>
+  <path d="M246 116 q22-3 26 6 q2 6-8 8 l-18 2Z" fill="#a72a1d"/>
+  <rect x="196" y="70" width="8" height="8" fill="#b8923f"/>
+
+  <!-- name plate ribbon -->
+  <rect x="140" y="252" width="120" height="24" fill="#a72a1d"/>
+  <path d="M140 252 l-14 12 14 12Z" fill="#7c1e15"/>
+  <path d="M260 252 l14 12-14 12Z" fill="#7c1e15"/>
+</svg>

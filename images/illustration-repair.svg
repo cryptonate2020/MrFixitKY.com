@@ -1,0 +1,47 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a repair technician working under a sink">
+  <!-- palette: ink #15110d, paper #f4efe6, brick #a72a1d, brass #b8923f, steel #8d8579, steel-light #d9d2c2 -->
+
+  <!-- cabinet -->
+  <rect x="40" y="70" width="190" height="150" fill="#d9d2c2" stroke="#15110d" stroke-width="3"/>
+  <line x1="40" y1="110" x2="230" y2="110" stroke="#15110d" stroke-width="2" opacity="0.35"/>
+  <rect x="60" y="40" width="150" height="34" rx="5" fill="#f4efe6" stroke="#15110d" stroke-width="3"/>
+  <rect x="80" y="30" width="16" height="16" rx="2" fill="#8d8579"/>
+  <path d="M128 74 v34 q0 10 10 10 h18" fill="none" stroke="#b8923f" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- ground -->
+  <line x1="16" y1="242" x2="384" y2="242" stroke="#8d8579" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+
+  <!-- kneeling figure -->
+  <g>
+    <!-- back leg -->
+    <path d="M270 242 v-34 q0-10 12-10 h20 v44 q0 8-8 8h-16q-8 0-8-8Z" fill="#15110d"/>
+    <!-- front shin, kneeling -->
+    <path d="M232 242 v-28 h30 v20 q0 8-8 8h-14q-8 0-8 0Z" fill="#15110d"/>
+    <!-- torso, leaning forward toward cabinet -->
+    <path d="M234 176 q4-40 46-46 q34-4 40 24 l4 26 q2 14-12 16 l-64 8 q-16 2-14-14Z" fill="#15110d"/>
+    <!-- tool belt -->
+    <rect x="246" y="186" width="66" height="10" fill="#a72a1d"/>
+    <rect x="270" y="184" width="12" height="14" fill="#f4efe6" stroke="#15110d" stroke-width="1.5"/>
+    <!-- head -->
+    <circle cx="300" cy="134" r="19" fill="#15110d"/>
+    <!-- cap -->
+    <path d="M281 128 a19 19 0 0 1 38 0 q2 0 2 6 h-42 q0-6 2-6Z" fill="#a72a1d"/>
+    <path d="M319 132 q14-2 16 4 q1 4-6 5 l-10 1Z" fill="#a72a1d"/>
+    <!-- extended arm reaching up into cabinet -->
+    <path d="M256 158 q-16-8-24-30 q-3-8 5-11 q7-3 11 5 q7 18 20 24Z" fill="#15110d"/>
+    <!-- hand + wrench at the pipe -->
+    <circle cx="232" cy="120" r="7" fill="#15110d"/>
+    <g transform="translate(190,96) rotate(-28)">
+      <rect x="0" y="0" width="42" height="7" rx="3.5" fill="#b8923f"/>
+      <circle cx="2" cy="3.5" r="8" fill="none" stroke="#b8923f" stroke-width="5"/>
+      <circle cx="40" cy="3.5" r="8" fill="none" stroke="#b8923f" stroke-width="5"/>
+    </g>
+  </g>
+
+  <!-- toolbox -->
+  <g>
+    <rect x="316" y="196" width="56" height="34" rx="3" fill="#a72a1d" stroke="#15110d" stroke-width="2.5"/>
+    <path d="M330 196 v-10 q0-6 6-6h10 q6 0 6 6v10" fill="none" stroke="#15110d" stroke-width="3"/>
+    <line x1="316" y1="212" x2="372" y2="212" stroke="#15110d" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>
