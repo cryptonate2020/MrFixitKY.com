@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrated map showing the service area across Louisville, St. Matthews, and Jeffersontown">
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrated map showing the service area across Louisville, St. Matthews, and Jeffersontown. Business based in Versailles, Kentucky.">
   <!-- palette: ink #15110d, paper #f4efe6, brick #a72a1d, brass #b8923f, steel #8d8579, steel-light #d9d2c2 -->
 
   <!-- backdrop roads -->
@@ -17,13 +17,14 @@
     <circle cx="18" cy="10" r="5" fill="#a72a1d"/>
   </g>
 
-  <!-- pin: Louisville (largest, home base) -->
+  <!-- pin: Louisville (service area) -->
   <g transform="translate(110,190)">
     <path d="M0 -46 a24 24 0 1 1 -0.1 0 Z M0-46 a24 24 0 0 1 24 24 q0 18-24 42 q-24-24-24-42 a24 24 0 0 1 24-24Z" fill="#a72a1d"/>
     <circle cx="0" cy="-22" r="9" fill="#f4efe6"/>
   </g>
   <text x="110" y="46" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="15" letter-spacing="0.5" fill="#15110d">LOUISVILLE</text>
-  <text x="110" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" letter-spacing="1" fill="#8d8579">HOME BASE</text>
+  <!-- business base; not a service-area city -->
+  <text x="200" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" letter-spacing="1" fill="#8d8579">BASED IN VERSAILLES, KY</text>
 
   <!-- pin: St. Matthews -->
   <g transform="translate(240,116) scale(0.78)">
